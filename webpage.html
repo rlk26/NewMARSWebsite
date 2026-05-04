@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>MARS | Marlborough Academic Research Society</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <!-- Background Florals -->
+        <div class="bg-floral">
+            <svg class="floral-element floral-1" width="200" height="200" viewBox="0 0 200 200">
+                <rect x="70" y="70" width="60" height="60" fill="#907AD6" transform="rotate(45 100 100)" />
+                <rect x="40" y="40" width="50" height="50" fill="#DABFFF" transform="rotate(45 65 65)" />
+                <rect x="110" y="40" width="50" height="50" fill="#DABFFF" transform="rotate(45 135 65)" />
+                <rect x="55" y="110" width="40" height="40" fill="#FFD93D" transform="rotate(45 75 130)" />
+                <rect x="105" y="110" width="40" height="40" fill="#FFD93D" transform="rotate(45 125 130)" />
+            </svg>
+            <svg class="floral-element floral-2" width="200" height="200" viewBox="0 0 200 200">
+                <rect x="70" y="70" width="60" height="60" fill="#DABFFF" transform="rotate(45 100 100)" />
+                <rect x="40" y="40" width="50" height="50" fill="#907AD6" transform="rotate(45 65 65)" />
+                <rect x="110" y="40" width="50" height="50" fill="#907AD6" transform="rotate(45 135 65)" />
+                <rect x="55" y="110" width="40" height="40" fill="#FFD93D" transform="rotate(45 75 130)" />
+                <rect x="105" y="110" width="40" height="40" fill="#FFD93D" transform="rotate(45 125 130)" />
+            </svg>
+            <svg class="floral-element floral-3" width="200" height="200" viewBox="0 0 200 200">
+                <rect x="70" y="70" width="60" height="60" fill="#FFD93D" transform="rotate(45 100 100)" />
+                <rect x="40" y="40" width="50" height="50" fill="#DABFFF" transform="rotate(45 65 65)" />
+                <rect x="110" y="40" width="50" height="50" fill="#907AD6" transform="rotate(45 135 65)" />
+                <rect x="55" y="110" width="40" height="40" fill="#DABFFF" transform="rotate(45 75 130)" />
+                <rect x="105" y="110" width="40" height="40" fill="#907AD6" transform="rotate(45 125 130)" />
+            </svg>
+        </div>
+
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <svg viewBox="0 0 100 100" fill="none">
+                        <rect x="30" y="30" width="40" height="40" fill="#907AD6" transform="rotate(45 50 50)" />
+                        <rect x="15" y="15" width="30" height="30" fill="#DABFFF" transform="rotate(45 30 30)" />
+                        <rect x="55" y="15" width="30" height="30" fill="#DABFFF" transform="rotate(45 70 30)" />
+                        <rect x="20" y="55" width="25" height="25" fill="#FFD93D" transform="rotate(45 32.5 67.5)" />
+                        <rect x="55" y="55" width="25" height="25" fill="#FFD93D" transform="rotate(45 67.5 67.5)" />
+                    </svg>
+                    MARS
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#issues">Issues</a></li>
+                    <li><a href="#domains">Research Domains</a></li>
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeXVL38t37rwqt3QEpM9snGXOqRXscs1v1OgN-kv-VGxGltgw/viewform?urp=gmail_link" target="_blank">Submit</a></li>
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfkK7iOVFmJXwIm_IA4Aa3tIn4AqCUL_5i3CWuCt1pK0RC1TQ/viewform" target="_blank">Apply</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="highlight-bar"></div>
+            <h1>Marlborough Academic<br />Research Society</h1>
+
+            <div class="search-container">
+                <input
+                    type="text"
+                    class="search-bar"
+                    id="searchBar"
+                    placeholder="Search research articles, authors, or topics..." />
+                <button class="search-button" id="searchButton">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                </button>
+                <div class="search-results" id="searchResults"></div>
+            </div>
+        </section>
+
+        <!-- About Section with Two-Column Layout -->
+        <section class="about-section">
+            <div class="about-grid">
+                <!-- Left Column: Mission Statement -->
+                <div class="mission-column">
+                    <h2>Our Mission</h2>
+                    <p>
+                        The Marlborough Academic Research Society (MARS) aims to provide Marlborough students from all
+                        backgrounds with the opportunity to edit, refine, and publish their research.
+                    </p>
+                    <p>
+                        By facilitating robust discussions across a diverse range of academic fields, and by teaching
+                        students how to navigate the peer review process, MARS hopes to prepare Marlborough students for
+                        future scholarly research and publication.
+                    </p>
+                    <p>
+                        MARS also looks to challenge and amplify existing knowledge through the dissemination of quality
+                        research in the sciences, social sciences, and humanities.
+                    </p>
+
+                    <h2>How to Get Involved</h2>
+                    <div class="get-involved-links">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeXVL38t37rwqt3QEpM9snGXOqRXscs1v1OgN-kv-VGxGltgw/viewform?urp=gmail_link" target="_blank" class="get-involved-link">Submit Your Research</a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfkK7iOVFmJXwIm_IA4Aa3tIn4AqCUL_5i3CWuCt1pK0RC1TQ/viewform" target="_blank" class="get-involved-link">Apply to Join the Staff</a>
+                    </div>
+                </div>
+
+                <!-- Right Column: Staff -->
+                <div class="info-column">
+                    <div class="info-section">
+                        <h3>Current Staff</h3>
+                        <ul class="staff-list">
+                            <li>
+                                <span class="staff-name">Lilly Shavelle</span><br /><span class="staff-role">Editor in Chief</span>
+                            </li>
+                            <li>
+                                <span class="staff-name">Leah Fischer</span><br /><span class="staff-role">Editor In Chief</span>
+                            </li>
+                            <li>
+                                <span class="staff-name">Rainey Renwick</span><br /><span class="staff-role">Chief Outreach Officer</span>
+                            </li>
+                            <li>
+                                <span class="staff-name">Mia Bae</span><br /><span class="staff-role">Web Editor</span>
+                            </li>
+                            <li>
+                                <span class="staff-name">Nina Smith</span><br /><span class="staff-role">Web Editor</span>
+                            </li>
+                            <li>
+                                <span class="staff-name">Ramya Karumanchi</span><br /><span class="staff-role">Web Editor</span>
+                            </li>
+                            <li>
+                                <span class="staff-name">Alicia Maehara</span><br /><span class="staff-role">Science Editor</span>
+                            </li>
+                            <li>
+                                <span class="staff-name">Sophia Baas-Maynard </span><br /><span class="staff-role">Science Editor</span>
+                            </li>
+                            <li>
+                                <span class="staff-name">Sami Shapiro</span><br /><span class="staff-role">Humanities & Social Sciences Editor</span>
+                            </li>
+                            <li>
+                                <span class="staff-name">Eliza Wayne</span><br /><span class="staff-role">Humanities & Social Sciences Editor</span>
+                            </li>
+                            <li>
+                                <span class="staff-name">Nina Luker</span><br /><span class="staff-role">Media Coordinator</span>
+                            </li>
+                            <li>
+                                <span class="staff-name">Ally Koh</span><br /><span class="staff-role">Media Coordinator</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Issues Section -->
+        <section class="issues" id="issues">
+            <h2 class="section-title">Latest Issues</h2>
+
+            <div class="issue-grid">
+                <!-- Issue 2 -->
+                <div class="issue-card">
+                    <h3>Issue 2 (2024-25)</h3>
+                    <p>Featuring cutting-edge student research across humanities, social sciences, and the sciences.</p>
+                    <div class="contributors">
+                        <span class="contributor-tag">Ali Emerson</span>
+                        <span class="contributor-tag">Emma Wollaeger</span>
+                        <span class="contributor-tag">Fernie Kimball</span>
+                    </div>
+
+                    <div class="articles-list">
+                        <a href="pdfs/popping-politics.pdf" target="_blank" style="text-decoration:none;">
+                            <div class="article-item">
+                                <h5>Popping Politics: Testing Models of Polarized Echo Chambers</h5>
+                                <p>Humanities & Social Sciences</p>
+                            </div>
+                        </a>
+                        <a href="pdfs/nepotism-kimball.pdf" target="_blank" style="text-decoration:none;">
+                            <div class="article-item">
+                                <h5>Nepotism: A Case Study of Two Getúlio Vargas Descendants</h5>
+                                <p>Humanities & Social Sciences</p>
+                            </div>
+                        </a>
+                        <a href="pdfs/adverse-childhood.pdf" target="_blank" style="text-decoration:none;">
+                            <div class="article-item">
+                                <h5>Adverse Childhood Experiences & Epigenetic Mutations</h5>
+                                <p>Sciences</p>
+                            </div>
+                        </a>
+                        <a href="pdfs/ionogel-batteries.pdf" target="_blank" style="text-decoration:none;">
+                            <div class="article-item">
+                                <h5>Novel Pseudo-Solid Electrolyte (Ionogel) for Batteries</h5>
+                                <p>Sciences</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Issue 1 -->
+                <div class="issue-card">
+                    <h3>Issue 1 (2023-24)</h3>
+                    <p>The inaugural issue showcasing innovative research from Marlborough students.</p>
+                    <div class="contributors">
+                        <span class="contributor-tag">Multiple Authors</span>
+                    </div>
+
+                    <div class="articles-list">
+                        <a href="pdfs/gis-slang.pdf" target="_blank" style="text-decoration:none;">
+                            <div class="article-item">
+                                <h5>GIS: A Database for Understanding Gender in Slang</h5>
+                                <p>Humanities & Social Sciences</p>
+                            </div>
+                        </a>
+                        <a href="pdfs/mainstream-comics.pdf" target="_blank" style="text-decoration:none;">
+                            <div class="article-item">
+                                <h5>Do Mainstream Comics Still Exist?</h5>
+                                <p>Humanities & Social Sciences</p>
+                            </div>
+                        </a>
+                        <a href="pdfs/insurrection-riot.pdf" target="_blank" style="text-decoration:none;">
+                            <div class="article-item">
+                                <h5>Adaptations of Les Misérables</h5>
+                                <p>Humanities & Social Sciences</p>
+                            </div>
+                        </a>
+                        <a href="pdfs/wang-ptsd.pdf" target="_blank" style="text-decoration:none;">
+                            <div class="article-item">
+                                <h5>PTSD & In-Utero Epigenetics</h5>
+                                <p>Sciences</p>
+                            </div>
+                        </a>
+                        <a href="pdfs/traumatic-brain-injury.pdf" target="_blank" style="text-decoration:none;">
+                            <div class="article-item">
+                                <h5>Traumatic Brain Injury in Adolescence</h5>
+                                <p>Sciences</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research Domains -->
+        <section class="domains" id="domains">
+            <h2 class="section-title">Research Domains</h2>
+
+            <div class="domain-grid">
+                <div class="domain-card">
+                    <div class="domain-icon">📚</div>
+                    <h4>Humanities & Social Sciences</h4>
+                    <p>Literature, history, linguistics, political science, and cultural studies</p>
+                    <span class="article-count">5 Articles</span>
+                </div>
+
+                <div class="domain-card">
+                    <div class="domain-icon">🔬</div>
+                    <h4>Sciences</h4>
+                    <p>Biology, neuroscience, psychology, chemistry, and environmental science</p>
+                    <span class="article-count">4 Articles</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025-26 Marlborough Academic Research Society. All rights reserved.</p>
+            <div class="footer-accent"></div>
+            <p>Fostering excellence in student research and scholarship.</p>
+        </footer>
+
+        <script>
+            // Research articles database
+            const articles = [
+                {
+                    title: "Popping Politics: Testing Models of Polarized Echo Chambers",
+                    category: "Humanities & Social Sciences",
+                    issue: "Issue 2 (2024-25)",
+                    author: "Dershewitz",
+                    pdf: "pdfs/popping-politics.pdf"
+                },
+                {
+                    title: "Nepotism: A Case Study of Two Getúlio Vargas Descendants",
+                    category: "Humanities & Social Sciences",
+                    issue: "Issue 2 (2024-25)",
+                    author: "Fernie Kimball",
+                    pdf: "pdfs/nepotism-kimball.pdf"
+                },
+                {
+                    title: "Adverse Childhood Experiences & Epigenetic Mutations",
+                    category: "Sciences",
+                    issue: "Issue 2 (2024-25)",
+                    author: "Emma Wollaeger",
+                    pdf: "pdfs/adverse-childhood.pdf"
+                },
+                {
+                    title: "Novel Pseudo-Solid Electrolyte (Ionogel) for Batteries",
+                    category: "Sciences",
+                    issue: "Issue 2 (2024-25)",
+                    author: "Ali Emerson",
+                    pdf: "pdfs/ionogel-batteries.pdf"
+                },
+                {
+                    title: "GIS: A Database for Understanding Gender in Slang",
+                    category: "Humanities & Social Sciences",
+                    issue: "Issue 1 (2023-24)",
+                    author: "Renwick",
+                    pdf: "pdfs/gis-slang.pdf"
+                },
+                {
+                    title: "Do Mainstream Comics Still Exist?",
+                    category: "Humanities & Social Sciences",
+                    issue: "Issue 1 (2023-24)",
+                    author: "",
+                    pdf: "pdfs/mainstream-comics.pdf"
+                },
+                {
+                    title: "Adaptations of Les Misérables",
+                    category: "Humanities & Social Sciences",
+                    issue: "Issue 1 (2023-24)",
+                    author: "",
+                    pdf: "pdfs/insurrection-riot.pdf"
+                },
+                {
+                    title: "PTSD & In-Utero Epigenetics",
+                    category: "Sciences",
+                    issue: "Issue 1 (2023-24)",
+                    author: "",
+                    pdf: "pdfs/wang-ptsd.pdf"
+                },
+                {
+                    title: "Traumatic Brain Injury in Adolescence",
+                    category: "Sciences",
+                    issue: "Issue 1 (2023-24)",
+                    author: "Vick",
+                    pdf: "pdfs/traumatic-brain-injury.pdf"
+                }
+            ];
+
+            const searchBar = document.getElementById("searchBar");
+            const searchButton = document.getElementById("searchButton");
+            const searchResults = document.getElementById("searchResults");
+
+            function performSearch() {
+                const query = searchBar.value.toLowerCase().trim();
+
+                if (query.length === 0) {
+                    searchResults.classList.remove("active");
+                    return;
+                }
+
+                const results = articles.filter((article) => {
+                    return (
+                        article.title.toLowerCase().includes(query) ||
+                        article.category.toLowerCase().includes(query) ||
+                        article.author.toLowerCase().includes(query) ||
+                        article.issue.toLowerCase().includes(query)
+                    );
+                });
+
+                displayResults(results, query);
+            }
+
+            function displayResults(results, query) {
+                if (results.length === 0) {
+                    searchResults.innerHTML = '<div class="no-results">No articles found for "' + query + '"</div>';
+                    searchResults.classList.add("active");
+                    return;
+                }
+
+                let html = "";
+                results.forEach((article) => {
+                    html += `
+                    <a href="${article.pdf}" target="_blank" style="text-decoration:none;">
+                        <div class="search-result-item">
+                            <h6>${article.title}</h6>
+                            <p>${article.category} • ${article.issue}${article.author ? " • " + article.author : ""}</p>
+                        </div>
+                    </a>
+                `;
+                });
+
+                searchResults.innerHTML = html;
+                searchResults.classList.add("active");
+            }
+
+            searchBar.addEventListener("input", performSearch);
+            searchButton.addEventListener("click", performSearch);
+
+            searchBar.addEventListener("keypress", (e) => {
+                if (e.key === "Enter") {
+                    performSearch();
+                }
+            });
+
+            // Close search results when clicking outside
+            document.addEventListener("click", (e) => {
+                if (!e.target.closest(".search-container")) {
+                    searchResults.classList.remove("active");
+                }
+            });
+        </script>
+    </body>
+</html>
