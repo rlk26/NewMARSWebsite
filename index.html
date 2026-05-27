@@ -9,6 +9,30 @@
                 margin: 0;
                 padding: 0;
                 box-sizing: border-box;
+            
+                .issue-card > a .article-item {
+                    transform: none;
+                    transition: none;
+                    border-left: none;
+                    color: #907ad6;
+                    text-decoration: underline;
+                    padding-left: 0;
+                    margin-top: -1rem;
+                    margin-bottom: -1rem;
+                }
+
+                .issue-card > a .article-item:hover {
+                    background: white;
+                    border-left-color: #dabfff;
+                    transform: none;
+                }
+
+                .issue-card > a .article-item:hover h5 {
+                    color: #dabfff;
+                    text-decoration: underline;
+                    transition: color 0.2s ease;
+                }
+               
             }
 
             @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Inter:wght@400;500;600;700&display=swap");
@@ -827,11 +851,21 @@
                 <!-- Issue 3 -->
                 <div class="issue-card">
                     <h3>Issue 3 (2025-26)</h3>
-                    <p>The latest issue featuring new student research in the sciences.</p>
+                 
+                    <p> The latest issue featuring new student research in the sciences.</p>
+
+                  
+                    
                     <div class="contributors">
                         <span class="contributor-tag">Claire Lee</span>
                         <span class="contributor-tag">Colette Wang</span>
                     </div>
+
+                    <a href="pdfs/Issue3Abstracts.pdf" target="_blank" style=" text-decoration: none;  font-size: 2rem;">
+                        <div class="article-item">
+                            <h5>Issue 3 Abstracts  ↗</h5>
+                        </div>   
+                    </a>
 
                     <div class="articles-list">
                         <a href="pdfs/wang-ptsd.pdf" target="_blank" style="text-decoration:none;">
